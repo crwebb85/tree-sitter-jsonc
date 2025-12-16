@@ -2,14 +2,20 @@
   "name": "tree-sitter-jsonc",
   "version": "0.2.1",
   "description": "JSONC grammar for tree-sitter",
-  "homepage": "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc",
+  "homepage": "https://github.com/crwebb85/tree-sitter-jsonc",
   "main": "bindings/node",
   "keywords": [
     "tree-sitter",
     "parser",
     "jsonc"
   ],
-  "author": "Hugo Osvaldo Barrera",
+  "author": "Christopher Webb",
+  "contributors": [
+    {
+      "name": "Hugo Osvaldo Barrera (Original Author)",
+      "url": "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "nan": "^2.14.2",
