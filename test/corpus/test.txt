@@ -42,8 +42,12 @@ String content
   (array
     (string)
     (string (string_content))
-    (string (string_content (escape_sequence)))
-    (string (string_content (escape_sequence)))))
+    (string 
+       (string_content) 
+       (escape_sequence))
+    (string 
+       (string_content) 
+       (escape_sequence))))
 
 ================================
 Top-level numbers
@@ -126,3 +130,4 @@ Comment inside array
 
 (document
   (array (comment) (string (string_content))))
+
